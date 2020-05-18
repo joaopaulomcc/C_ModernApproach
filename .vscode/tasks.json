@@ -14,7 +14,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
+                "${fileDirname}/${fileBasenameNoExtension}.elf",
             ],
             "options": {
                 "cwd": "/usr/bin"
