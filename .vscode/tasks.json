@@ -10,11 +10,11 @@
             "args": [
                 "-std=c99",
                 "-Wall",
-                "-lm",
                 "-g",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}.elf",
+                "-lm",
             ],
             "options": {
                 "cwd": "/usr/bin"
